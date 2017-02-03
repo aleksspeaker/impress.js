@@ -181,9 +181,40 @@ a:focus {
     line-height: 1.5;
 }
 .step#its {
-    background: url(../messkil-spider.png) no-repeat;
-    background-size: 100% 100%;
+    background: url(../iphone-right.png) no-repeat right center;
+    background-size: 45% auto;
+    height: 700px;
 }
+.step#centric {
+    background: url(../centric.png) no-repeat right top;
+    background-size: 45% auto;
+    height: 700px;
+    font-size: 2rem;
+}
+
+.names {
+    font-size: 2.3rem;
+    margin-top: 20px;
+}
+.faces {
+    margin: 5px 25px 5px;
+    border-radius: 50%;
+    float: left;
+    vertical-align: center;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 
 /*
     ... and we enhance the styles for impress.js.
@@ -321,7 +352,7 @@ a:focus {
 /*
     This step has some animated text ...
 */
-#ing { width: 500px }
+#ing { width: 900px }
 
 /*
     ... so we define display to `inline-block` to enable transforms and
